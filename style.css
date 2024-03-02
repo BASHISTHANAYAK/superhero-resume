@@ -1,0 +1,195 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Brown section css start */
+main > div {
+  border: 1px solid transparent;
+  margin: auto;
+  padding: 0 5%;
+}
+#BrownSection_Container {
+  background-color: #2a2e36;
+}
+#BrownSection_Container > section {
+  margin-top: 5px;
+}
+#BrownSection_Container > section > h2 {
+  color: #b30b0b;
+  font-size: 2rem;
+}
+
+#BatmanImg--name--Sec > img {
+  border: 2px solid white;
+  display: block;
+  width: 253px;
+  height: 350px;
+  margin: 5rem auto;
+  border-radius: 13px;
+}
+#BatmanImg--name--Sec > h1 {
+  background-color: #f4d644;
+  padding: 4rem 0;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#Contact--Sec ul {
+  list-style: none;
+  color: white;
+  font-size: 1.6rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-rows: repeat(auto-fit, auto);
+  row-gap: 14px;
+  text-align: left;
+  padding: 20px 0px;
+}
+#Contact--Sec ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#Contact--Sec ul > li > img {
+  width: 3rem;
+  padding: 4px 6px;
+  background-color: #f4d644;
+  border-radius: 10px;
+}
+.sections--ul {
+  list-style: none;
+  color: white;
+  font-size: 1.6rem;
+  padding: 0;
+}
+
+#Four--interest--div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#Four--interest--div > p {
+  padding: 3rem;
+  background-color: #f4d644;
+  border-radius: 10px;
+  font-size: 2rem;
+  padding: 1.9%;
+}
+
+#batman_3_Images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  padding: 2rem 0;
+}
+#batman_3_Images img {
+  width: 20rem;
+}
+
+/* White section css start */
+#WhiteSection_Container {
+  margin-top: 20px;
+}
+#WhiteSection_Container >section {
+    margin-top: 40px;
+  }
+#Theme--Sec > center {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#Image--with--audio--div {
+  height: 12rem;
+  background-image: url(https://superhero-resume.netlify.app/coverpage.png);
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+#Image--with--audio--div audio {
+  width: 90%;
+  align-self: center;
+}
+.WhiteSec--Headings {
+  font-size: 2.8rem;
+}
+.Brown--Hr {
+  border-width: 5px;
+  border-top: rgb(60, 59, 59);
+}
+.White--main--uls {
+  list-style-type: none;
+  font-size: 1.8rem;
+  padding: 0;
+}
+.White--main--uls > li:first-child {
+  font-size: 2.2rem;
+}
+#SKILLS_EXPERTISES_Div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  text-align: center;
+  gap: 1rem;
+}
+#SKILLS_EXPERTISES_Div p {
+  color: white;
+  background-color: red;
+  font-size: large;
+  border-radius: 30px;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+iframe {
+  display: block;
+  margin: 5rem auto;
+  width: 560px;
+  height: 31.5rem;
+}
+footer {
+  background-color: #2a2e36;
+  color: white;
+  padding: 1.9rem 0;
+  font-size: 1.2rem;
+}
+#email_link {
+  color: #b30b0b;
+}
+
+@media screen and (max-width: 755px) {
+  iframe {
+    width: 98%;
+  }
+  #batman_3_Images img {
+    width: 25rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .WhiteSec--Headings {
+    font-size: 1.93rem;
+    width: 100%;
+  }
+  .White--main--uls {
+    list-style-type: none;
+    font-size: 1.7rem;
+    padding: 0;
+    text-align: justify;
+  }
+  .White--main--uls > li:first-child {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
